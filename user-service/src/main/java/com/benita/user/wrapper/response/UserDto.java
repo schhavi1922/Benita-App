@@ -1,0 +1,19 @@
+package com.benita.user.wrapper.response;
+
+import lombok.Data;
+
+@Data
+public class UserDto {
+
+    private Integer id;
+
+    private String firstName;
+
+    private String lastName;
+
+    private String phone;
+
+    private String employeeId;
+
+    private String email;
+}
