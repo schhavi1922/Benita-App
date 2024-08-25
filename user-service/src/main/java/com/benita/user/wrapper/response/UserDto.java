@@ -16,4 +16,6 @@ public class UserDto {
     private String employeeId;
 
     private String email;
+
+    private String token;
 }

@@ -1,7 +1,10 @@
 package com.benita.user.wrapper.response;
 
+import lombok.Data;
+
 import java.util.Date;
 
+@Data
 public class AttendanceDto {
 
     private Integer id;
